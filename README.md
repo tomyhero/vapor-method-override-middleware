@@ -19,6 +19,10 @@ Add the dependency to Package.swift
 Add this middelware to configuration to `Config+Setup.swift` 
 
 ```swift
+import MethodOverrideMiddleware
+
+...
+
 try addConfigurable(middleware: MethodOverrideMiddleware(), name: "method-override")
 ```
 
