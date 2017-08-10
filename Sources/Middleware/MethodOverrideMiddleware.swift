@@ -10,7 +10,7 @@
 import Vapor
 import HTTP
 
-public class MethodOverrideMiddleware: Middleware {
+public final class MethodOverrideMiddleware: Middleware {
     
     
     let HTTP_METHODS: [String] = ["GET","HEAD","PUT","POST","DELETE","OPTIONS","PATCH","LINK","UNLINK"];
