@@ -3,3 +3,4 @@ Package.pins
 
 .DS_Store
 *.xcodeproj
+*.swp
