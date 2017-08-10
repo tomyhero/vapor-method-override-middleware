@@ -5,7 +5,7 @@
 
 This is Vapor's middleware which override HTTP method like Rack::MethodOverride class in Ruby.
 Because of some of browser only support `GET` and `POST` method, we need manually add `PUT`,`PATCH`,`DELETE`,etc...
-This middleware help the work.
+This middleware help the task for you.
 
 
 # Prepare
