@@ -1,4 +1,4 @@
-# Method Override Middleware
+# Vapor's Method Override Middleware
 
 ![Vapor](http://img.shields.io/badge/vapor-2.0-brightgreen.svg)
 
