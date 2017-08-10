@@ -11,12 +11,16 @@ import Vapor
 import HTTP
 
 public final class MethodOverrideMiddleware: Middleware {
-    
+
     
     let HTTP_METHODS: [String] = ["GET","HEAD","PUT","POST","DELETE","OPTIONS","PATCH","LINK","UNLINK"];
     let METHOD_OVERRIDE_PARAM_KEY = "_method";
   //  let HTTP_METHOD_OVERRIDE_HEADER = "HTTP_X_HTTP_METHOD_OVERRIDE";
     let ALLOWED_METHODS : [String] = ["POST"];
+    
+    public init() {
+
+    }
     
 
     public func respond(to request: Request, chainingTo next: Responder) throws -> Response {
