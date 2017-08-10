@@ -3,7 +3,8 @@ import Testing
 import HTTP
 import Sockets
 @testable import Vapor
-@testable import Middleware
+@testable import MethodOverrideMiddleware
+
 
 class MethodOverrideMiddlewareTests: XCTestCase {
     
